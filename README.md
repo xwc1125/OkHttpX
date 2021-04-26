@@ -15,6 +15,16 @@
 
 ## 1 总体简介
 
+在pom.xml中引用依赖：
+
+```
+<dependency>
+    <groupId>com.xwc1125.chain5j</groupId>
+    <artifactId>OkHttpX</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 在项目入口创建唯一OkHttpX实例
 
 ```java
