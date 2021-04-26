@@ -1,22 +1,16 @@
 package com.xwc1125.okhttpx.okhttpx_test;
 
-import com.google.gson.Gson;
 import com.xwc1125.okhttpx.OkHttpX;
 import com.xwc1125.okhttpx.download_mgr.AbstractDownloadMgr;
-import com.xwc1125.okhttpx.download_mgr.DownloadTask;
 import com.xwc1125.okhttpx.okhttpx_test.leveldb.LevelDB;
 import okhttp3.OkHttpClient;
 import org.junit.Before;
 import org.junit.Test;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.JedisPoolConfig;
 
 import java.io.IOException;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
-import static com.xwc1125.okhttpx.download_mgr.AbstractDownloadMgr.DEFAULT_TASK_STATUS_PAUSE;
 import static com.xwc1125.okhttpx.download_mgr.AbstractDownloadMgr.DEFAULT_TASK_STATUS_START;
 
 /**
